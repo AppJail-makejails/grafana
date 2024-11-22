@@ -1,0 +1,2 @@
+OPTION volume=grafana-data mountpoint:/var/db/grafana owner:904 group:904 perm:750
+OPTION volume=grafana-conf mountpoint:/usr/local/etc/grafana owner:0 group:0
