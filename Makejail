@@ -1,0 +1,8 @@
+INCLUDE options/options.makejail
+
+ARG grafana_tag=13.4
+
+FROM --entrypoint gh+AppJail-makejails/grafana grafana:${grafana_tag}
+
+SYSRC grafana_enable=YES
+SERVICE grafana start
