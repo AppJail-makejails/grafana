@@ -24,6 +24,7 @@ appjail makejail \
 ### Arguments (stage: build):
 
 * `grafana_tag` (default: `%%TAG1%%`): see [#tags](#tags).
+* `grafana_ajspec` (default: `gh+AppJail-makejails/grafana`): Entry point where the `appjail-ajspec(5)` file is located.
 
 ### Volumes
 
