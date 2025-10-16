@@ -1,16 +1,17 @@
 tags+: 13.5
 13.5.arch: amd64
 13.5.name: "grafana"
-13.5.timestamp.amd64: 1758759605
-13.5.sum.amd64: 9fcea9cf6ea0aec021d4b6edb18c6f6a217fb2dba4f7a4c7bf539675b3ffc8bd
-13.5.size.amd64: 191685268
+13.5.timestamp.amd64: 1760575203
+13.5.sum.amd64: 8196bf991f4d51b5b44e651544422316a329b51ee168399f9dbe964ff24743c1
+13.5.size.amd64: 191725422
 13.5.source.amd64: "https://images.all101bsd.download/grafana/13.5-amd64-image.appjail"
 13.5.source.amd64+: "http://appjail.hpc.at/grafana/13.5-amd64-image.appjail"
 tags+: 14.3
 14.3.arch: amd64
 14.3.name: "grafana"
-14.3.timestamp.amd64: 1758760018
-14.3.sum.amd64: c553dc3a73883864bc3bcb6fe9e837722ce386f309cb933afd005cb5d9dc863a
-14.3.size.amd64: 191422675
+14.3.timestamp.amd64: 1760575531
+14.3.sum.amd64: 52baa75736b3e16e856f0a5883a216c932ac8181a90e579ba371b4c891dda5b9
+14.3.size.amd64: 191483575
 14.3.source.amd64: "https://images.all101bsd.download/grafana/14.3-amd64-image.appjail"
 14.3.source.amd64+: "http://appjail.hpc.at/grafana/14.3-amd64-image.appjail"
+maintenance: "This image is uploading, please wait a moment and try again. If you are importing this image using a Makejail that has the '--<name>_ajspec' argument, you can use the 'reproduce' method to use 'appjail-reproduce'. See 'appjail-image(5)' for details."
