@@ -23,7 +23,7 @@ appjail makejail \
 
 ### Arguments (stage: build):
 
-* `grafana_tag` (default: `13.5`): see [#tags](#tags).
+* `grafana_tag` (default: `14.3`): see [#tags](#tags).
 * `grafana_ajspec` (default: `gh+AppJail-makejails/grafana`): Entry point where the `appjail-ajspec(5)` file is located.
 
 ### Volumes
@@ -37,5 +37,5 @@ appjail makejail \
 
 | Tag    | Arch    | Version        | Type   |
 | ------ | ------- | -------------- | ------ |
-| `13.5` | `amd64` | `13.5-RELEASE` | `thin` |
 | `14.3` | `amd64` | `14.3-RELEASE` | `thin` |
+| `15` | `amd64` | `15` | `thin` |

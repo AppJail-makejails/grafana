@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG grafana_tag=13.5
+ARG grafana_tag=14.3
 ARG grafana_ajspec=gh+AppJail-makejails/grafana
 
 FROM --entrypoint "${grafana_ajspec}" grafana:${grafana_tag}
