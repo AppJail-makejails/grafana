@@ -313,3 +313,7 @@ build:
         NO_PKGCLEAN: "1"
       cache_dirs: ["pkgcache0:/var/cache/pkg"]
 ```
+
+## Notes
+
+1. The ideas present in the Docker image of Grafana are taken into account for users who are familiar with it.
