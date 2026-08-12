@@ -1,9 +1,6 @@
-INCLUDE options/options.makejail
+ARG grafana_from=ghcr.io/appjail-makejails/grafana
+ARG grafana_tag=latest
 
-ARG grafana_tag=14.3
-ARG grafana_ajspec=gh+AppJail-makejails/grafana
-
-FROM --entrypoint "${grafana_ajspec}" grafana:${grafana_tag}
-
-SYSRC grafana_enable=YES
-SERVICE grafana start
+OPTION container=boot
+OPTION overwrite=force
+OPTION from=${grafana_from}:${grafana_tag}
