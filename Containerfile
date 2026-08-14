@@ -14,7 +14,7 @@ LABEL org.opencontainers.image.title="Grafana" \
 RUN set -xe; \
     \
     pkg update; \
-    pkg install -U grafana bash gnugrep gsed; \
+    pkg install grafana bash gnugrep gsed; \
     \
     if [ -z "${NO_PKGCLEAN}" ]; then \
         pkg clean -a; \
